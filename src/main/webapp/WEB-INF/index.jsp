@@ -15,6 +15,37 @@
 	</head>
 
 	<body>
-		<h1> About the Wedding </h1>
+
+			<nav class="navbar navbar-expand-md navbar-custom bg-custom">
+					<a href="#" class="navbar-brand"> Zack and Katryna's Wedding! </a>
+		
+					<div class="collapse navbar-collapse justify-content-end">
+						<ul class="navbar-nav">
+							
+							<li class="nav-item">
+								<a href="/index" class="nav-link"> Wedding Info </a>
+							</li>
+							<li class="nav-item">
+								<a href="/register" class="nav-link"> RSVP </a>
+							</li>
+							<li class="nav-item">
+								<a href="/tourism" class="nav-link"> Things In Cleveland </a>
+							</li>
+							<li class="nav-item">
+								<a href="/registry" class="nav-link"> Registry </a>
+							</li>
+		
+						</ul>
+					</div>
+				</nav>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1> Wedding Information. </h1>
+				</div>
+			</div>
+		</div>
+
 	</body>
 </html>

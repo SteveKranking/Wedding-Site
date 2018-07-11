@@ -34,5 +34,20 @@ public class Router{
 	public String redirect(HttpServletRequest req){		
 		String url = req.getRequestURI().toString();
 		return "redirect:/index";
-	}		
+	}	
+	
+	@RequestMapping("/rsvp")
+	public String rsvp(){
+		return "register";
+	}
+
+	@RequestMapping("registry")
+	public String registry(){
+		return "registry";
+	}
+
+	@RequestMapping("tourism")
+	public String tourism(){
+		return "tourism";
+	}
 }
